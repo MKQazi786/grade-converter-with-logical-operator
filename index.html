@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 javscrpit grade converter with logical operator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="heading"> ES6 javscrpit percentage% to grade converter </h1>
+
+
+    <img src="./image/grade table.jpg" alt="this is grade table">
+    <p>In the above chart show phenomena of converting percentege to grade: </p>
+    <br>
+
+    <legend class="legend">
+
+        <form onsubmit="calculateGrade(); return false">
+            <label for="percentage">
+                Your Percentage:
+            </label> <br>
+            <input required type="number" min="0" max="100" id="percentage" class="input" placeholder="Enter you percentage%">
+            <br>
+            <button type="submit" class="button" id="button"> click here for getting grade</button>
+        </form>
+
+        <div id="result" >
+
+            <h2 id="title"></h2>
+
+        </div>
+    </legend>
+
+    <footer class="heading">
+        &copy;Web and App developer:Muhammad Khubaib <br>
+        <a href="https://github.com/MKQazi786">Github/MKQazi786</a>
+    </footer>
+
+    <script src="grade.js"></script>
+</body>
+
+</html>
